@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+}
+
+#form, div {
+	text-align: center;
+	margin: 10px;
+}
+
+#show {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+.aprovado {
+	color: blue;
+}
+
+.recuperacao {
+	color: yellow;
+}
+
+.reprovado {
+	color: red;
+}

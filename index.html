@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head lang="pt-br">
+		<meta charset="utf-8">
+		<title>SOMA DE MÉDIA</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="soma.js"></script>
+	</head>
+	<body>
+		<h1>SOMA DE MÉDIA BIMESTRAL</h1>
+
+		<form id="form" method="form">
+			<div>
+				<label for="nota1">NOTA 1</label>
+				<input type="number" name="nota1" id="nota1" value="" min="0" max="10" onfocus="this.value='';"required>
+			</div>
+
+			<div>
+				<label for="nota2">NOTA 2</label>
+				<input type="number" name="nota2" id="nota2" value="" min="0" max="10" onfocus="this.value='';"required>
+			</div>
+
+			<div>
+				<label for="nota3">NOTA 3</label>
+				<input type="number" name="nota3" id="nota3" value="" min="0" max="10" onfocus="this.value='';"required>
+			</div>
+
+			<div>
+				<label for="nota4">NOTA 4</label>
+				<input type="number" name="nota4" id="nota4" value="" min="0" max="10" onfocus="this.value='';"required>
+			</div>
+
+			<button type="button" name="soma" id="soma" onclick="teste()">RESULTADO</button>
+
+			<p id="show"></p>
+		</form>
+	</body>
+</html>
