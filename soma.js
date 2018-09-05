@@ -7,8 +7,6 @@ function teste() {
 
 	var media = parseFloat((n1 + n2 + n3 + n4) / 4);
 
-	// document.getElementById('show').innerHTML = media;
-
 	if (media >= 7) {
 		document.getElementById('show').innerHTML =  "APROVADO: MÉDIA " + media;
 		show.classList.add('aprovado');
